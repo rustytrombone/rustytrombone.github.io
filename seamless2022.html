@@ -2,7 +2,10 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta name="robots" content="noindex">
+
     <title>Anchorpoint Technology Limited</title>
+
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
             integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
             crossorigin="anonymous"></script>
@@ -12,13 +15,15 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/js/bootstrap.min.js"
             integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
             crossorigin="anonymous"></script>
+
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400&family=Lato:wght@300;400&display=swap"
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400&family=Lato:wght@300;400;700;900&display=swap"
           rel="stylesheet">
 
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css"
           integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
     <style type="text/css">
         body {
             font-family: 'Lato', sans-serif;
@@ -47,6 +52,27 @@
         .special {
             margin-top: 2em;
             margin-bottom: 2em;
+            position: relative;
+            text-align: center;
+        }
+
+        .special:before {
+            content: ' ';
+            display: block;
+            position: absolute;
+            left: 0;
+            top: 0;
+            width: 100%;
+            height: 100%;
+            opacity: 0.1;
+            background-image: url('dubaibg.jpg');
+            background-repeat: no-repeat;
+            background-position: 50% 0;
+            background-size: cover;
+        }
+
+        .special-content {
+            position: relative;
         }
 
 
@@ -60,7 +86,7 @@
             margin-top: 1em;
         }
 
-        p {
+        p, li {
             line-height: 180%;
         }
     </style>
@@ -70,9 +96,9 @@
 <div class="container-fluid">
     <div class="container-fluid">
         <div class="row">
-            <div class="col-md-2">
+            <div class="col-2">
             </div>
-            <div class="col-md-8">
+            <div class="col-8">
                 <div class="jumbotron page-header">
                     <img src="logo_light.png"/>
                     <h2>
@@ -140,16 +166,17 @@
                         <div class="col-md-6">
                             <h4>Charlotte Killick-Cole</h4>
                             <p>Charlotte started her career in Financial Services in 2001. With a keen focus on software
-                                delivery, Charlotte has spent over 20 years successfully delivering initiatives for a
-                                broad range of businesses, from scale-up to FTSE100.</p>
-
-                            <p>Charlotte worked with Chris for the first time in 2004 to deliver a portfolio management
-                                system for Hargreaves Lansdown. Since then, the pair have collaborated on product
-                                launches, scalability programmes, business enhancements and strategic programme reviews.
-                                Recent joint ventures include the launch of an asset management platform for a
-                                high-net-worth broker and a strategically significant programme rescue for a PE backed
-                                advisor platform.</p>
-
+                                delivery,
+                                Charlotte has spent over 20 years delivering initiatives for a broad range of
+                                businesses, from
+                                scale-up to FTSE100.</p>
+                            <p>Charlotte has professional qualifications in programme and project management, and a
+                                background
+                                in cultivating and leading successful delivery teams.</p>
+                            <p>Charlotte understands the benefits of a
+                                unified vision and strategy, and spends time working with businesses as they transition
+                                to a
+                                goals-based way of working.</p>
                         </div>
                     </div>
                     <div class="row">
@@ -163,68 +190,101 @@
                                   type="button" target="_blank">LinkedIn Profile</a></p>
                         </div>
                     </div>
-                    <p><br/>Charlotte and Chris decided to join forces permanently to form Anchorpoint Technology
+                    <p>Charlotte and Chris first worked together in 2004, delivering a portfolio management system
+                        for Hargreaves Lansdown. Since then, the pair have collaborated on product launches, scalability
+                        programmes, business enhancements and strategic programme reviews. Recent joint ventures include
+                        the launch of an asset management platform for a high-net-worth broker and a strategically
+                        significant programme turnaround for a PE backed advisor platform.</p>
+                    <p>Charlotte and Chris decided to join forces permanently to form Anchorpoint Technology
                         Limited in 2022.</p>
                 </div>
 
+                <h4>Consultancy</h4>
                 <div class="row">
                     <div class="col-md-6">
-                        <h4>Consultancy</h4>
+
+                    </div>
+                    <div class="col-md-6">
+
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-6">
                         <ul>
-                            <li class="list-item">
-                                Fintech & traditional Wealth Management. Unlike other consultancies, we have experience
-                                owning &amp; operating systems rather than simply designing them, adding significant value to
-                                our expertise.
-                            </li>
-                            <li class="list-item">
-                                CTO-as-a-service, portfolio &amp;amp; change management. Leadership through experience,
-                                knowledge and pragmatism.
-                            </li>
-                            <li class="list-item">
-                                Programme & project audit, turnaround & rescue. If you have a large strategic change initiative
-                                that is in trouble, we can conduct an independent audit to help you understand the key issues
-                                and how they can best be fixed. Then, if required, we can manage all stakeholders towards a
-                                successful implementation of any recommendation remediation steps.
-                            </li>
-                            <li class="list-item">
-                                Technology strategy. Setting strategies, reviewing for fitness, architecting for change.
-                                Pragmatic technology strategy focused on delivery of business outcomes.
-                            </li>
+                        <li class="list-item">
+                            <b>Fintech & traditional Wealth Management.</b> Unlike other consultancies, we have experience
+                            owning &amp; operating systems rather than simply designing them, adding significant
+                            value to
+                            our expertise.
+                        </li>
+                        <li class="list-item">
+                            <b>CTO-as-a-service, portfolio &amp; change management.</b> Leadership through experience,
+                            knowledge and pragmatism.
+                        </li>
+                        <li class="list-item">
+                            <b>Technology strategy.</b> Setting strategies, reviewing for fitness, architecting for change.
+                            Pragmatic technology strategy focused on delivery of business outcomes.
+                        </li>
                         </ul>
                     </div>
                     <div class="col-md-6">
-                        <h4>Product Engineering</h4>
+<ul>
+    <li class="list-item">
+        <b>Programme & project audit, turnaround & rescue.</b> If you have a large strategic change
+        initiative
+        that is in trouble, we can conduct an independent audit to help you understand the key
+        issues
+        and how they can best be fixed. Then, if required, we can manage all stakeholders
+        towards a
+        successful implementation of any recommendation remediation steps.
+    </li>
+</ul>
+                    </div>
+                </div>
+                <h4>Product Engineering</h4>
+                <div class="row">
+                    <div class="col-md-6">
                         <p>Our Bi-Modal delivery approach can fit your existing Ways of Working, or operate in a
-                            more opinionated and consultative manner to deliver value through process change and modernisation, e.g.:</p>
+                            more opinionated and consultative manner to deliver value through process change and
+                            modernisation, e.g.:</p>
                         <ul>
                             <li class="list-item">
-                                Product-led, agile, and reactive. Operating using a goals based and roadmap driven approach.
+                                Product-led, agile, and reactive. Operating using a goals based and roadmap driven
+                                approach.
                                 Architecting for change (“Navigating using a SatNav”).
                             </li>
                             <li class="list-item">
-                                Traditional plan-based Waterfall approach. Operating by developing an upfront plan, validating
+                                Traditional plan-based Waterfall approach. Operating by developing an upfront plan,
+                                validating
                                 that plan and delivering activities sequentially (“Navigating using an Atlas”).
 
                             </li>
                         </ul>
-                        <p>We can direct your technical teams, bring in our own dedicated teams or create a blended delivery
+                        <p>We can direct your technical teams, bring in our own dedicated teams or create a blended
+                            delivery
                             capability using appropriate methodologies and Ways of Working.</p>
+
+                    </div>
+                    <div class="col-md-6">
 
                         <ul>
                             <li class="list-item">
-                                <b>Greenfield</b>. Idea shaping, product design, implementation planning. Proof of concepts
+                                <b>Greenfield</b>. Idea shaping, product design, implementation planning. Proof of
+                                concepts
                                 & rapid MVPs. Full end-to-end development and implementation.
 
                             </li>
                             <li class="list-item">
-                                <b>Brownfield</b>. Modernising, updating and improving existing systems to meet new non-functional
-                                requirements – e.g. more users, greater speed, operate in different environments. Add new functional
-                                components to existing systems to meet new business requirements.</p>
-
+                                <b>Brownfield</b>. Modernising, updating and improving existing systems to meet new
+                                non-functional
+                                requirements (e.g. more users, greater speed, ability to operate in different
+                                environments) or to add new functional
+                                components to existing systems to meet new business requirements.
                             </li>
                             <li class="list-item">
-                                <b>Bluefield</b>. Extending an existing system by creating hybrid architectures, blending
-                                new and old seamlessly. Adding new components like mobile apps, web portals etc.
+                                <b>Bluefield</b>. Extending an existing system by creating hybrid architectures,
+                                blending
+                                new and old seamlessly or adding new components like mobile apps, web portals etc.
                             </li>
                         </ul>
                     </div>
@@ -382,27 +442,27 @@
                 </div>
 
                 <div class="jumbotron special">
-                    <div class="row">
-                        <div class="col-md-8">
-                            <h3>Seamless 2022 Collaboration Opportunity</h3>
-                            <p>
-                                We have developed a Savings Marketplace solution concept, allowing savers and
-                                institutions to connect on an open platform – built on our proprietary cash management
-                                technology. This technology is designed to operate globally and blend traditional and
-                                non-traditional forms of funding.
-                            </p>
-                            <img src="cashman.png" class="img-fluid"/>
-                            <p>If you would like to partner with us to bring this product to market in the UAE, we would
-                                be delighted to hear from you. Email us at <a
-                                        href="mailto:collaborate@anchorpoint.co.uk">collaborate@anchorpoint.co.uk</a> or
-                                phone +44 (0)203 488 6955if you would like to discuss this opportunity.</p>
-                            <p>Alternatively, if you would be interested to find out more about how our innovative new
-                                cash management technology can help you build a disruptive product or service, please
-                                get in touch.</p>
-                        </div>
-                        <div class="col-md-4">
-                            <img src="dubai-dark.jpg" class="img-fluid"/>
-                        </div>
+                    <div class="inner special-content">
+
+                        <h3>Seamless 2022 Collaboration Opportunity</h3>
+                        <p>
+                            We have developed a Savings Marketplace solution concept, allowing savers and
+                            institutions to connect on an open platform – built on our proprietary cash management
+                            technology. This technology is designed to operate globally and blend traditional and
+                            non-traditional forms of funding.
+                        </p>
+
+                        <div class="w-50 p-3"><img src="cashman.png" class="img-thumbnail"/></div>
+
+                        <p>If you would like to partner with us to bring this product to market in the UAE, we would
+                            be delighted to hear from you. Email us at <a
+                                    href="mailto:collaborate@anchorpoint.co.uk">collaborate@anchorpoint.co.uk</a> or
+                            phone +44 (0)203 488 6955 if you would like to discuss this opportunity.</p>
+                        <p>Alternatively, if you would be interested to find out more about how our innovative new
+                            cash management technology can help you build a disruptive product or service, please
+                            get in touch.</p>
+
+
                     </div>
                 </div>
 
@@ -433,7 +493,7 @@
                 </div>
 
             </div>
-            <div class="col-md-2">
+            <div class="col-2">
             </div>
         </div>
     </div>
